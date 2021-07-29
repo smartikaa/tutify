@@ -13,3 +13,18 @@
     border:solid #dc3545 1px;
     border-radius: 10px;
 }
+.remove-vid-marg{
+    margin:0px;
+    padding: 0px;
+}
+.vid-parent{
+    position:relative;
+}
+video {
+    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

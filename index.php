@@ -30,6 +30,16 @@
     </nav>
 
     <!-- end navigation -->
+
+    <!-- start video bg-->
+    <div class="container-fluid remove-vid-marg">
+        <div class = "vid-parent">
+            <video playsinline autoplay muted loop> 
+                <source src=./video/Education.mp4
+            </video>
+        </div>
+    </div>
+    <!-- end video bg-->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
