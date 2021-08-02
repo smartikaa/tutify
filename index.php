@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- start navigation -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5 fixed-top">
         <a class="navbar-brand" href="./index.php">Tutify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,18 +28,27 @@
             </div>
         </div>
     </nav>
-
     <!-- end navigation -->
 
     <!-- start video bg-->
     <div class="container-fluid remove-vid-marg">
         <div class = "vid-parent">
+        <div class="vid-overlay"></div>
             <video playsinline autoplay muted loop> 
                 <source src=./video/Education.mp4
             </video>
         </div>
+        <div class="vid-content">
+            <h1 class="my-content"> Welcome to Tutify </h1>
+            <small class="my-content">Finding tutors made easy</small><br>
+            <a href="#" class="btn btn-danger">Get Started </a>
+        </div>
+
     </div>
     <!-- end video bg-->
+    <!-- start text banner -->
+    
+    <!-- end text banner -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
